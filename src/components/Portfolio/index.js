@@ -7,7 +7,7 @@ function Portfolio() {
 			name: 'Buzzerbeater ',
 			description:
             'Get the latest basketball updates and interact with users by creating blog posts and commenting on other posts as well. Save threads that interest you to your bookmarks for easy acess. Also search by dates to pull up current or past threads that you may have missed.',
-			image: 'src\assets\buzzerbeaterPic.png',
+			image: 'src/assets/buzzerbeaterPic.png',
 			technologies: [
 				'HTML/CSS, ',
 				'JavaScript, ',
