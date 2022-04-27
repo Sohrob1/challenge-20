@@ -2,7 +2,7 @@
   "name": "challenge-20",
   "version": "0.1.0",
   "private": true,
-  "homepage": "git@github.com:sohrob1/challenge-20",
+  "homepage": "https://sohrob1.github.io/challenge-20/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
