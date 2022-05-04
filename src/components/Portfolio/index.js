@@ -37,6 +37,25 @@ function Portfolio() {
 			],
 			github: 'https://github.com/Rebekah818/andromeda',
 			deployed: 'https://rebekah818.github.io/andromeda/',
+		},
+		{
+			name: 'Adopt A Pet',
+			description:
+            'Connecting future parents with their future adoptive pets. Includes the ability to volunteer to help get pets adopted, browse potential pets, and donate to the organization',
+			image: 'src/assets/adopt-a-pet.png',
+			technologies: [
+				'HTML/CSS, ',
+				'JavaScript, ',
+				'Node.js, ',
+				'Heroku, ',
+                'Express, ',
+                'GraphQL, ',
+                'Mongo/Mongoose, ',
+                'JWT Authentication, ',
+                'Stripe API '
+			],
+			github: 'https://github.com/Kareem1990/adopt-a-pet',
+			deployed: 'https://lit-thicket-52493.herokuapp.com/',
 		}
 	];
 
@@ -84,6 +103,25 @@ function Portfolio() {
                     <b>Deployment Link:</b> <a href={projects[1].deployed}>{projects[1].deployed}</a>
                     <br></br>
                     <b>Project Description:</b>{projects[1].description}
+					</li>
+					<li className="padding">
+                    <h1>Project: {projects[2].name}</h1>
+                    <br></br>
+                    <img
+					src={require('../../assets/adopt-a-pet.png')}
+					alt="Pet Adoption-Screenshot"
+					className="photo"
+                    width="400" 
+                    height="300"
+				/>
+                    <br></br>
+                    <b>Technologies Used:</b> {projects[2].technologies}
+                    <br></br>
+                    <b>Github Link:</b> <a href={projects[2].github}>{projects[2].github}</a>
+                    <br></br>
+                    <b>Deployment Link:</b> <a href={projects[2].deployed}>{projects[2].deployed}</a>
+                    <br></br>
+                    <b>Project Description:</b>{projects[2].description}
 					</li>
 				</ul>
 			</div>
