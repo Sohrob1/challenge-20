@@ -3,15 +3,15 @@ import React from "react";
 
 function Resume() {
 	return (
-		<section>
+		<section className="resume-items">
 			<div className="center">
 				<h1 className="page-header">My Resume</h1>
 			</div>
 			<div>
 				<h5>Front-End</h5>
 				<ol>
-					<li>HTML5</li>
-					<li>CSS3</li>
+					<li>HTML</li>
+					<li>CSS</li>
 					<li>JavaScript</li>
 					<li>jQuery</li>
 					<li>Bootstrap</li>
@@ -40,8 +40,6 @@ function Resume() {
 				<ol>
 					<li>MySQL</li>
 					<li>Sequelize</li>
-					<li>NoSQL</li>
-					<li>SQLite</li>
 					<li>GraphQL</li>
 					<li>MongoDB</li>
 					<li>Mongoose</li>

@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import emailjs from 'emailjs-com'
 
 function Contact() {
 	const [formState, setFormState] = useState({
@@ -45,6 +46,23 @@ function Contact() {
 			setFormState({ ...formState, [e.target.name]: e.target.value });
 		}
 	}
+	function sendEmail(e) {
+		e.preventDefault();
+		emailjs.sendForm(
+		  'service_b66ga4d',
+		  'contact_form',
+		  e.target,
+		  "qhfFOeJaWjjQ61myo"
+		)
+		.then(res=>{
+			setFormState({
+		  name: '',
+		  email: '',
+		  message:''
+		  });
+		  alert("YOUR MESSAGE WAS SENT TO sganjbaksh@gmail.com")
+		}).catch(err=> console.log(err));
+	  }
 
 	return (
 		<section>
@@ -52,7 +70,7 @@ function Contact() {
 				<h2 className="page-header">Contact Me</h2>
 			</div>
 			<div>
-				<form id="contact-form">
+				<form id="contact-form" onSubmit={sendEmail}>
 					<div>
 						<label htmlFor="Name">Name:</label>
 						<br></br>
