@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/challenge-20/static/css/main.11369706.css",
-    "main.js": "/challenge-20/static/js/main.ad754904.js",
-    "static/js/787.d57f9dc0.chunk.js": "/challenge-20/static/js/787.d57f9dc0.chunk.js",
-    "static/media/CosmoQuotesPic.png": "/challenge-20/static/media/CosmoQuotesPic.d6b396578784709bd901.png",
-    "static/media/adopt-a-pet.png": "/challenge-20/static/media/adopt-a-pet.be23b0881c1e2b2ad61c.png",
-    "static/media/buzzerbeaterPic.png": "/challenge-20/static/media/buzzerbeaterPic.77f115cdf33f872d3398.png",
-    "static/media/profile-pic.jpg": "/challenge-20/static/media/profile-pic.4e45280e49775360055c.jpg",
-    "index.html": "/challenge-20/index.html",
-    "main.11369706.css.map": "/challenge-20/static/css/main.11369706.css.map",
-    "main.ad754904.js.map": "/challenge-20/static/js/main.ad754904.js.map",
-    "787.d57f9dc0.chunk.js.map": "/challenge-20/static/js/787.d57f9dc0.chunk.js.map"
+    "main.css": "/resume/static/css/main.11369706.css",
+    "main.js": "/resume/static/js/main.a165b1fc.js",
+    "static/js/787.d57f9dc0.chunk.js": "/resume/static/js/787.d57f9dc0.chunk.js",
+    "static/media/CosmoQuotesPic.png": "/resume/static/media/CosmoQuotesPic.d6b396578784709bd901.png",
+    "static/media/adopt-a-pet.png": "/resume/static/media/adopt-a-pet.be23b0881c1e2b2ad61c.png",
+    "static/media/buzzerbeaterPic.png": "/resume/static/media/buzzerbeaterPic.77f115cdf33f872d3398.png",
+    "static/media/profile-pic.jpg": "/resume/static/media/profile-pic.4e45280e49775360055c.jpg",
+    "index.html": "/resume/index.html",
+    "main.11369706.css.map": "/resume/static/css/main.11369706.css.map",
+    "main.a165b1fc.js.map": "/resume/static/js/main.a165b1fc.js.map",
+    "787.d57f9dc0.chunk.js.map": "/resume/static/js/787.d57f9dc0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11369706.css",
-    "static/js/main.ad754904.js"
+    "static/js/main.a165b1fc.js"
   ]
 }
