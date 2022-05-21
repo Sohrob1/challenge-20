@@ -16,6 +16,7 @@ function Resume() {
 					<li>jQuery</li>
 					<li>Bootstrap</li>
 					<li>React</li>
+					<li>Java</li>
 				</ol>
 				<br></br>
 				<h5>Back-End</h5>
