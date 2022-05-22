@@ -16,7 +16,6 @@ function Resume() {
 					<li>jQuery</li>
 					<li>Bootstrap</li>
 					<li>React</li>
-					<li>Java</li>
 				</ol>
 				<br></br>
 				<h5>Back-End</h5>
@@ -27,6 +26,7 @@ function Resume() {
 					<li>Express</li>
 					<li>Model View Controller (MVC)</li>
 					<li>Progressive Web Applications (PWA)</li>
+					<li>Java</li>
 				</ol>
 				<br></br>
 				<h5>Dev Tools</h5>
